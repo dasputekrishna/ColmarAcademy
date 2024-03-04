@@ -1,0 +1,353 @@
+
+body{
+    margin: 0;
+}
+nav{
+background-color: rgb(255, 255, 255);
+display: flex;
+text-align: center;
+height: 64px;
+}
+.Icon{
+    margin-left: 24px;
+    display: flex;
+    float:left;
+    align-items: center;
+}
+
+.Icon .colmar{
+font-size: 24px;
+font-weight: bold;
+color:black;
+}
+.Icon .academy{
+    font-size: 24px;
+    color: grey;
+}
+
+.Navigation{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 24px;
+}
+.Navigation ul{
+    list-style-type: none; 
+}
+ul li{
+    display: inline-block;
+}
+ul li a { 
+    font-size: 18px;
+    display: inline;
+    float:right;
+    text-decoration: none;
+   margin-right: 24px;
+   color: rgb(4, 4, 4);
+  }
+  ul li a:hover{
+    background-color: rgb(19, 19, 19);
+    color:white;
+    font-size: 110%;
+  }
+
+
+.container{
+    background-color: rgb(200, 200, 200);
+}
+.Content{
+    display: flex;
+    align-items: center;
+}
+
+.imgBanner{
+    width: 60%;
+    height: auto;
+    padding: 32px 24px 32px 24px; 
+}
+.content p{
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(77, 77, 77);
+    
+}
+.container h1{
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    color: rgb(78, 78, 78);
+}
+
+button{
+    width: 90%;
+    background-color: rgb(78, 78, 78);
+    padding: 8px 0 8px 0;
+    border: rgb(58, 58, 58);
+    color: #fdfeff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.Content button:hover{
+ background-color: rgb(248, 248, 248);
+ border: 10px;
+ border-radius: 20px;
+ border-color: rgb(27, 27, 27);
+ color: black;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 1.5rem;
+    background-color: #F3F5F5;
+}
+.info-main{
+    width:60%;
+    padding:32px 24px 32px 24px;
+    
+}
+.info-main img{
+    width:100%;
+    margin-right: 24px;
+}
+
+.info-main h1{
+    font-size: 50px;
+    color: #2c2c2c;
+}
+.info-main p{
+    font-size: 20px;
+    color: rgb(76, 76, 76);
+}
+#bd{
+    font-size: 20px;
+    font:bold;
+    color: #2c2c2c;
+}
+
+
+.infobox {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 24px 0;
+}
+
+.infoblock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.infoblock h3{
+    font-size: 30px;
+    color: #2c2c2c;
+}
+
+#orient {
+    border-bottom: 1px solid #525252;
+    padding:1px;
+}
+#campus{
+
+    border-top: 1px solid #525252;
+    border-bottom: 1px solid #525252;
+    padding:1px
+}
+#lecture{
+    border-top: 1px solid #525252;
+    padding:1px
+}
+
+.infobox img {
+    width: 35%;
+    height: auto;
+    margin: 24px;
+    padding: 16px;
+}
+
+
+.infobox .text {
+    padding: 0 24px;
+}
+
+.infoblock a {
+    text-decoration: none;
+    color: #65A0E5;
+}
+
+.information .infobox .infoblock:hover{
+    background-color:rgb(189, 189, 189); 
+}
+
+.start-learning {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 72px;
+    background-color: #b4b4b4;
+    color: #464646;
+}
+.start-learning .learn{
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+    padding:32px;
+}
+.start-learning .courses {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.coursecard {
+    width: 26%;
+    margin: 32px;
+    background-color: #fff;
+    transition-property: all;
+    transition-duration: 0.30s;
+    transition-timing-function: ease-in-out;
+}
+
+.coursecard:hover {
+    transform: scale(1.075);
+    max-width: 100%;
+}
+
+.start-learning img {
+    height: auto;
+    width: 100%;
+}
+
+.start-learning .text {
+    padding: 16px 8px 16px  ;
+
+}
+
+.start-learning p {
+    color: #767676;
+}
+
+#thesis-exhibit {
+    background-color: rgba(252, 252, 252, 0.789);
+    padding: 32px 0 32px 24px;
+}
+
+#thesis-exhibit h2 {
+    text-align: center;
+    margin: 24px 0;
+}
+
+#thesis-container {
+    display: flex;
+    padding-top: 24px;
+}
+
+#thesis-video {
+    width: 55%;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.image-container {
+    overflow: hidden;
+    box-shadow: 5px 5px 20px darkslategrey;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.exhibit-container {
+    width: 45%;
+    margin-left: 32px;
+}
+.side-container:hover {
+    background-color:rgb(171, 171, 171);
+}
+#thesis-exhibit .image-container {
+    max-width: 32%;
+    margin: 16px;
+}
+
+#thesis-exhibit .content h3 {
+    margin: 16px 0;
+
+}
+
+.exhibit-container .content {
+   
+    font-size: 16 px;
+    margin-left: 8px;
+    overflow: none;
+}
+.side-container {
+    display: flex;
+}
+
+
+footer {
+    background-color: ghostwhite;
+    border-top: 1px solid lightgray;
+    width: 100%;
+    height: 64px;
+    font-size: 16px;
+    position: relative;
+    top:72px;
+    
+}
+
+footer p {
+    margin-left: 24px;
+}
+
+footer span {
+    margin: 16px;
+    color:black;
+}
+
+footer div {
+    padding-top: 16px;
+}
+.leftfootertext {
+    float: left;
+    
+}
+.leftfootertext a{
+    color:#2c2c2c;
+}
+.rightfootertext {
+    float: right;
+}
+.rightfootertext a {
+    text-decoration: none;
+    color: #505050;
+}
+.rightfootertext a:hover {
+    background-color: rgb(19, 19, 19);
+    color:white;
+    font-size: 110%;
+}
