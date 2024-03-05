@@ -22,7 +22,7 @@ Getting Started
 Clone the repository:
 bash
 Copy code
-git clone <>
+git clone <https://github.com/dasputekrishna/ColmarAcademy>
 
 Navigate to the project directory:
 bash
