@@ -24,13 +24,7 @@ bash
 Copy code
 git clone <https://github.com/dasputekrishna/ColmarAcademy>
 
-Navigate to the project directory:
-bash
-Copy code
-cd colmar-academy
-Open the index.html file in your web browser to view the website.
-
-Structure
+Structure :
 The project directory structure is organized as follows:
 index.html: Main HTML file for the website content.
 style/: Directory containing CSS files for styling.
