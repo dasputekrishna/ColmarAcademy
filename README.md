@@ -18,8 +18,7 @@ HTML5: Markup language for structuring the website content.
 CSS3: Styling language for designing the website layout, colors, fonts, and responsiveness.
 Bootstrap: CSS framework for developing responsive and mobile-first websites.
 
-Getting Started
-Clone the repository:
+
 bash
 Copy code
 git clone <https://github.com/dasputekrishna/ColmarAcademy>
