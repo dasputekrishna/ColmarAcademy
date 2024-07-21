@@ -18,11 +18,6 @@ HTML5: Markup language for structuring the website content.
 CSS3: Styling language for designing the website layout, colors, fonts, and responsiveness.
 Bootstrap: CSS framework for developing responsive and mobile-first websites.
 
-
-
-
- <https://github.com/dasputekrishna/ColmarAcademy>
-
 Structure :
 The project directory structure is organized as follows:
 index.html: Main HTML file for the website content.
