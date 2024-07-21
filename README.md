@@ -21,7 +21,7 @@ Bootstrap: CSS framework for developing responsive and mobile-first websites.
 
 
 
- clone <https://github.com/dasputekrishna/ColmarAcademy>
+ <https://github.com/dasputekrishna/ColmarAcademy>
 
 Structure :
 The project directory structure is organized as follows:
