@@ -19,7 +19,7 @@ CSS3: Styling language for designing the website layout, colors, fonts, and resp
 Bootstrap: CSS framework for developing responsive and mobile-first websites.
 
 
-bash
+
 Copy code
 git clone <https://github.com/dasputekrishna/ColmarAcademy>
 
