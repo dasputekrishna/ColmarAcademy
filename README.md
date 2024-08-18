@@ -12,7 +12,7 @@ Navigation: Clear and intuitive navigation to help users find the information th
 Information Sections: Sections for programs, facilities, faculty, admissions, and contact information.
 Accessibility: Ensure the website is accessible to users with disabilities, following best practices.
 Engagement: Interactive elements to engage users and encourage exploration of the website.
-
+it
 Technologies Used
 HTML5: Markup language for structuring the website content.
 CSS3: Styling language for designing the website layout, colors, fonts, and responsiveness.
